@@ -1,0 +1,18 @@
+import { Button, HorizontalBox , AboutSlint } from "std-widgets.slint";
+import "./DejaVu Sans Mono for Powerline.ttf";
+
+export component AppWindow inherits Window {
+    width: 320px;
+    height: 240px;
+    default-font-family: "DejaVu Sans Mono for Powerline";
+    in-out property<string> preset: "Preset One";
+    callback request-increase-value();
+    HorizontalBox {
+        Text {
+            text: "\{root.preset}";
+            font-size: 48px;
+            vertical-alignment: center;
+            horizontal-alignment: center;
+        }
+    }
+}
