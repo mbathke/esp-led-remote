@@ -1,14 +1,4 @@
-# ESP32 T-Display-S3 Slint Bare Metal Rust Template
-
-A template for a MCU ESP32 T-Display-S3 application that's using [Slint](https://slint-ui.com) for the user interface.
-
-## About
-
-This template helps you get started developing a bare metal MCU Rust application with Slint as toolkit for the user interface.
-It shows how to implement the `slint::platform::Platform` trait, and displays a simple `.slint` design on the screen.
-
-For a template about using Slint with an operating system (Desktop, or Embedded Linux), check out the
-classic template at https://github.com/slint-ui/slint-rust-template.
+# LED Remote control over WIFI with ESP32s3
 
 ## Usage
 
